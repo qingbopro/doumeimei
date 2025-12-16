@@ -19,6 +19,21 @@ export const VIDEO_THEMES = [
     name: "女大学生",
     url: "https://api.yujn.cn/api/nvda.php?type=video",
   },
+  {
+    id: "qingchun",
+    name: "清纯妹妹",
+    url: "http://api.yujn.cn/api/qingchun.php?type=video",
+  },
+  {
+    id: "rewu",
+    name: "热舞",
+    url: "http://api.yujn.cn/api/rewu.php?type=video",
+  },
+  {
+    id: "yuzu",
+    name: "玉足",
+    url: "http://api.yujn.cn/api/yuzu.php?type=video",
+  },
 ] as const;
 
 export type ThemeId = (typeof VIDEO_THEMES)[number]["id"];
