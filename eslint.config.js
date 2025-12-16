@@ -22,6 +22,8 @@ export default defineConfig([
     },
     rules: {
       "react-refresh/only-export-components": "off",
+      "react-hooks/exhaustive-deps": "warn",
+      "react-hooks/set-state-in-effect": "warn",
     },
   },
   eslintConfigPrettier,
