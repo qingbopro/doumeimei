@@ -30,7 +30,7 @@ export default function App() {
   };
 
   return (
-    <div className="relative w-full h-screen bg-black overflow-hidden">
+    <div className="relative w-full h-[100dvh] bg-black overflow-hidden">
       <ThemeMenu
         currentTheme={currentThemeId}
         onThemeChange={(id) => {
